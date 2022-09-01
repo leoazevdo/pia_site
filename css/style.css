@@ -45,7 +45,10 @@
 
 /*  ala de teste */
 
+
+
 .topbar{
+
    
   background: rgb(5, 8, 56);
   display: flex;
@@ -122,18 +125,14 @@ padding-left: 0
  margin: 25px;
  display: absolute;
  justify-content: center;
- 
- 
  border-radius: 50%;
 
- 
- 
 }
 .photo{
 
   justify-content: center;
-  margin: 10px auto;
-  border-radius: 50%;
+  margin: 40px auto;
+  border-radius: 3%;
   width: 10px;
   height: 10px;
   padding: 0px;
@@ -147,6 +146,109 @@ padding-left: 0
   background: #0db90d;
   box-shadow: 2px 2px 2px 2px rgb(56, 65, 67) ;
 }
+
+.instabar{
+  
+ 
+  
+  
+  background: #082a5e;
+ 
+  
+  
+
+
+}
+.text-center {
+  text-align: center;
+}
+.instagram-cta {
+  color: #da1616;
+  font-size: 28px;
+  font-family: Montserrat,sans;
+  text-align: center;
+  position: relative;
+  font-weight: 500;
+  margin: 50px 0;
+}
+.titleig{
+  color: #FCEA37;
+  font-size: 35px;
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  text-align: center;
+  position: relative;
+  font-weight: 500;
+  margin: 50px;
+  margin-top: 15px;
+  margin-bottom: 1%;
+}
+
+.titleig:hover{
+  color: #e0b806;
+  
+}
+
+.instagram-cta {
+  display: block;
+  overflow: hidden;
+}
+
+.instagram-cta {
+  margin: 0 0 50px;
+  
+}
+.insta-link {
+  height: auto;
+  width: 500px;
+  text-align:center;
+  display:block;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  background: #3049c7;
+  color: white; 
+  font-size: 15px;
+  margin-bottom: 25px;
+  border-radius: 10px;
+  margin-top: 15px;
+  margin: auto;
+  border-style:
+  border-collapse: collapse;
+  
+  
+}
+
+@media (min-width: 768px)
+.containerig {
+  width: 100%;
+  
+}
+.containerig {
+  padding-right: 10px;
+  padding-left: 10px;  
+  padding-top: 0%;
+  margin-top: 0%;
+  margin-bottom: 0%;
+}
+
+.instabartxt{
+  font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  padding: 10px;
+  text-align: center; 
+  color: #0db90d;
+  
+}
+.instabartxt:hover{
+  font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  padding: 10px;
+  text-align: center; 
+  color: #4b754b;
+  
+}
+
+.instagram-feed {
+  display: -webkit-box;
+  display: flex;
+}
+
 
 
 /*ala de teste */
